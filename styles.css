@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #f8f8f8;
   margin: 0;
   padding: 0;
@@ -25,12 +27,12 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background: #0077cc;
+  background: #A0DDE6;
   color: #fff;
 }
 
 button:hover {
-  background: #005fa3;
+  background: #80C2AF;
 }
 
 .oculto {
@@ -43,3 +45,4 @@ button:hover {
   padding: 8px;
   border-bottom: 1px solid #eee;
 }
+
