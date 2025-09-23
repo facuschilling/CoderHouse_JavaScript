@@ -2,30 +2,24 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Carrito de Compras</title>
+  <title>Facundo Schilling - Entrega Final.</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
-  <div class="estilo-general">
-    <h1>Carrito de Compras</h1>
-    <div id="usuario">
-      <input type="text" id="nombreUsuario" placeholder="Ingresá tu nombre">
-      <button id="botonIniciar">Iniciar</button>
-      <p id="saludo"></p>
-    </div>
+  <header>
+    <h1>CoderHouse-Store</h1>
+    <button id="verCarrito">Ver Carrito (<span id="contadorCarrito">0</span>)</button>
+  </header>
 
-    <div id="seccionProductos" class="oculto">
-      <h2>Productos disponibles</h2>
-      <div id="listaDeProductos"></div>
-    </div>
-    <div id="seccionCarrito" class="oculto">
-      <h2>Tu carrito</h2>
-      <ul id="carritoLista"></ul>
-      <p id="total"></p>
-      <button id="botonFinalizar">Finalizar compra</button>
-      <button id="botonVaciar">Vaciar carrito</button>
-    </div>
-  </div>
+  <main>
+    <section id="contenedorProductos" class="contenedor-productos">
+    </section>
+  </main>
+
+  <footer>
+    <p>Sitio Web desarrollado por <a href="http://www.facustudio.com.ar" target="_blank" class="linkfacustudio">facu.studio</a></p>
+  </footer>
 
   <script src="app.js"></script>
 </body>
